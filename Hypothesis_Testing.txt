@@ -1,0 +1,32 @@
+#################################################################################################
+## OZKAN EMRE OZDEMIR                                                                           #
+## HOMEWORK 3 : Hypothesis Testing                                                              #
+## 04/21/16                                                                                     #
+## Class:  Methods for Data Analysis                                                            #
+##                                                                                              #
+##  http://www.fsa.usda.gov/FSA/webapp?area=newsroom&subject=landing&topic=foi-er-fri-pfi       #
+##                                                                                              #
+##   Need:                                                                                      #
+##                                                                                              #
+##    -2011 Farm Payment File (27MB) txt file                                                   #
+##    -State and County Code List (374KB) xls file (probably convert this to csv)               #
+#################################################################################################
+##------------ Let's answer the 1st question--------------
+##   1.  Does our sample equally represent all 50 states?
+##
+##----Perform a test for equal representation-----------
+##For categorical comparison tests,
+## If the sample/subgroup size is large enough,
+##  Use Chi-squared test
+# p-value < 2.2e-16, very low p value! and X-squared = 2177400000
+# Question 1.  Does our sample equally represent all 50 states?
+# As the test confirms, the answer is No, it doesnt!
+#
+##------------ Let's answer the 2nd  question--------------
+#    2.  Does our sample equally represent all 50 states, weighted by number of farms/state?   
+## p-value < 2.2e-16, again very low p value 
+# Question 2.  Does our sample equally represent all 50 states, weighted by number of farms/state?
+# As the test confirms, the answer is No, it doesnt!
+################################################################################################
+##                                                    End                                      #
+################################################################################################
